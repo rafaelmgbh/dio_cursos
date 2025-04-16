@@ -1,0 +1,52 @@
+# ---- Ruby on Rails ----
+*.rbc
+*.sassc
+.sass-cache/
+capybara-*.html
+.rspec
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/public/uploads
+byebug_history
+config/master.key
+config/credentials.yml.enc
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, cache, and other temp files.
+/*.pid
+/.pid.lock
+/public/assets
+.byebug_history
+
+# Yarn and node modules
+/node_modules/
+/yarn-error.log
+
+# dotenv environment variables file
+.env*
+.env
+
+# ---- PyCharm ----
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+.idea/
